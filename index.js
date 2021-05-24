@@ -33,7 +33,7 @@ app.post('/',function(req,res){
         method : "POST",
         headers : {
         "Authorization" : "samarth1 f3bda44c3f89f5ea1c54fd8e3e096a73-us6",
-        },  
+        },
          body : jsonData 
     }
 
@@ -41,11 +41,12 @@ app.post('/',function(req,res){
             if(error){
                 res.send("there's some issue with this request");
             }else{
-                if(response.statusCode ==  200){
-                    res.sendFile(__dirname+"/sucess.html");
-                }else{
-                    res.sendFile(__dirname+"/failure.html");
-                }
+                console.log(response.statusCode);
+                // if(response.statusCode ==  200){
+                //     res.sendFile(__dirname+"/sucess.html");
+                // }else{
+                //     res.sendFile(__dirname+"/failure.html");
+                // }
             }
     });
 

@@ -27,17 +27,17 @@ body {
 }
 
 .top {
-  margin-bottom: -1px;
+  margin-bottom: 0px;
   border-bottom-right-radius: 0;
   border-bottom-left-radius: 0;
 }
 
 .middle {
-    border-radius: 0%;
+    border-radius: 0px;
 }
 
 .bottom{
-  margin-bottom: 10px;
-  border-top-left-radius: 0;
+  margin-bottom: 5px;
+  border-top-left-radius: 0;  
   border-top-right-radius: 0;
 }
